@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "To-Do List",
+        "descripcion": "Aplicación sencilla para organizar tareas. Incluye almacenamiento local.",
+        "imagen": "img/todo-list.png",
+        "github": "https://github.com/usuario/todo-list",
+        "demo": "https://usuario.github.io/todo-list"
+    },
+    {
+        "id": 2,
+        "titulo": "Clon de Google",
+        "descripcion": "Interfaz web responsiva que simula la página principal de Google.",
+        "imagen": "img/clon-google.png",
+        "github": "https://github.com/usuario/clon-google",
+        "demo": "https://usuario.github.io/clon-google"
+    },
+    {
+        "id": 3,
+        "titulo": "Juego de Memoria",
+        "descripcion": "Juego interactivo hecho en JavaScript puro. Contador de movimientos y reinicio.",
+        "imagen": "img/juego-memoria.png",
+        "github": "https://github.com/usuario/juego-memoria",
+        "demo": "https://usuario.github.io/juego-memoria"
+    }
+]
