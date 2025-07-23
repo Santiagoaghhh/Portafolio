@@ -1,23 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Santiago</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio SPA</title>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body>
-    <div class="main-fd">
-        <div class="foto-Perfil">
-            <img src="./img/SantiagoFotoPerfil.svg" alt="">
-        </div>
-        <div class="sobreMi">
-            <p>Desarrollador de Software con conocimientos sólidos en HTML, CSS y JavaScript.
-            Familiarizado con el uso de Git, metodologías ágiles y el trabajo en equipo. 
-            Caracterizado por el compromiso en el aprendizaje continuo y la mejora constante. 
-            En búsqueda de oportunidades que  fortalezcan las habilidades de liderazgo, pensamiento crítico, adaptabilidad y comunicación, para adquirir además experiencia en el desarrollo de software.</p>
-        </div>
+<body class="fondo">
+  <header class="navbar">
+    <nav class="navbar__menu">
+      <a href="#acerca" class="nav__link">Acerca de mí</a>
+      <a href="#proyectos" class="nav__link">Proyectos</a>
+      <a href="#competencias" class="nav__link">Competencias</a>
+      <a href="#habilidades" class="nav__link">Habilidades</a>
+      <a href="#contacto" class="nav__link">Contáctame</a>
+    </nav>
+  </header>
 
-    </div>
+  <main>
+    <section id="acerca" class="seccion">
+      <h2 class="seccion__titulo">Acerca de mí</h2>
+      <p id="info__acerca" class="info__text"></p>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <h2 class="seccion__titulo">Proyectos</h2>
+      <div id="contenedor__proyectos" class="proyectos__grid"></div>
+    </section>
+
+    <section id="competencias" class="seccion">
+      <h2 class="seccion__titulo">Competencias</h2>
+      <ul id="lista__competencias" class="info__lista"></ul>
+    </section>
+
+    <section id="habilidades" class="seccion">
+      <h2 class="seccion__titulo">Habilidades</h2>
+      <ul id="lista__habilidades" class="info__lista"></ul>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2 class="seccion__titulo">Contáctame</h2>
+      <div class="contacto__info">
+        <p><strong>GitHub:</strong> <a id="contacto__github" href="#" target="_blank"></a></p>
+        <p><strong>LinkedIn:</strong> <a id="contacto__linkedin" href="#" target="_blank"></a></p>
+        <p><strong>Email:</strong> <span id="contacto__email"></span></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
 </body>
 </html>

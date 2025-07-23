@@ -1,0 +1,47 @@
+{
+    "acercaDeMi": {
+        "descripcion": "Desarrollador de Software con conocimientos sólidos en HTML, CSS y JavaScript. Familiarizado con el uso de Git, metodologías ágiles y el trabajo en equipo. Caracterizado por el compromiso en el aprendizaje continuo y la mejora constante. En búsqueda de oportunidades que fortalezcan las habilidades de liderazgo, pensamiento crítico, adaptabilidad y comunicación, para adquirir además experiencia en el desarrollo de software."
+    },
+    "proyectos": [
+        {
+            "titulo": "Fórmula 1 API",
+            "descripcion": "Desarrollo de una página web enfocada en el uso de APIs REST, mostrando equipos de Fórmula 1, pilotos y circuitos.",
+            "imagen": "img/proyecto-f1.png",
+            "enlace": "https://github.com/Gersonchm1/Proyecto_Javascript_S1AguilarSantiago_ChaparroGerson"
+        },
+        {
+            "titulo": "Spider API",
+            "descripcion": "Práctica de una API REST creada manualmente, con diseño responsivo y temática vintage.",
+            "imagen": "img/spider-api.jpg",
+            "enlace": "https://github.com/Santiagoaghhh/SpiderAPI"
+        },
+        {
+            "titulo": "Kario Media",
+            "descripcion": "Sitio web personalizado basado en HTML y CSS, con enfoque en diseño responsivo, uso de grid y flexbox.",
+            "imagen": "img/kario-media.jpg",
+            "enlace": "https://github.com/Naya741/Kario_Media"
+        }
+    ],
+    "habilidades": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "MongoDB",
+        "SCRUM",
+        "JSON"
+    ],
+    "competencias": [
+        "Comunicación Asertiva",
+        "Trabajo Colaborativo",
+        "Liderazgo",
+        "Escucha Activa",
+        "Analítico"
+    ],
+    "contacto": {
+        "github": "https://github.com/Santiagoaghhh",
+        "linkedin": "https://www.linkedin.com/in/santiago-aguilar-208b38348/",
+        "email": "santaguilar17@gmail.com"
+    }
+}
