@@ -54,4 +54,4 @@ Desarrollador de Software con conocimientos sólidos en **HTML, CSS y JavaScript
 
 
 ```html
-<img src="img/preview.png" alt="Vista previa del portafolio" width="100%">
+
